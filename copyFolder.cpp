@@ -3,6 +3,7 @@
 #include <QFile>
 #include <QFileInfo>
 #include <QString>
+#include <QDirIterator>
 
 bool copyFolder(QString from,QString to)
 {
