@@ -34,7 +34,7 @@ bool copyFolder(QString from,QString to)
             else if(!copy_stat)
                 qDebug() << "fail";
         }
-		// else copyFolder(from,to_file) // *** If you want subfolders to, call this function iteratively like this
+		// else copyFolder(from,to_file) // *** If you want subfolders too, call this function iteratively like this
     }
     return true;
 }
