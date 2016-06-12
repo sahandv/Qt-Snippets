@@ -5,4 +5,4 @@ Also if you spot a bug, crush it. I'll be very happy.
 Have fun!
 
 keywords:
-xml, xmlparser, parser, qt, QXmlStreamReader, qt5, read
+xml, xmlparser, parser, qt, QXmlStreamReader, qt5, read, c++, cpp
