@@ -16,7 +16,7 @@
 #include <QtXml>
 //add what header you need
 
-bool LVXMLReadWrite::readXML(QString path)
+bool readXML(QString path)
 {
     qDebug() << "loading xml file...";
     if (path.isEmpty())
