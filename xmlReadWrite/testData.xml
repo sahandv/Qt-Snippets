@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parents>
+	<parent title="trmp" something="happy" >
+		<childnest>
+			<child name="tjr" acquisitionNo="2"></child>
+			<child name="tsn" acquisitionNo="8"></child>
+		</childnest>
+	</parent>
+	<parent title="hlr" something="sad" >
+		<childnest>
+			<child name="hjr" acquisitionNo="5"></child>
+			<child name="hsn" acquisitionNo="7"></child>
+			<child name="hjn" acquisitionNo="10"></child>
+		</childnest>
+	</parent>
+</parents>
+
