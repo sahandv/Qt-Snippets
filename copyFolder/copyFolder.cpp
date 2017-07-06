@@ -7,10 +7,10 @@
 
 bool copyFolder(QString from,QString to)
 {
-    // copy folder from "from"
-    // paste it inside folder "to"
-    // folder and file names will be preserved
-	// if parent folder has sub folders, the content of sub folders will be copied into the parent folder. ***
+    // Copy folder from "from"
+    // Paste it inside folder "to"
+    // Folder and file names will be preserved
+    // If parent folder has sub folders, the content of sub folders will be copied into the parent folder. ***
 
     QDir from_dir(from);
     QString folder_name = from_dir.dirName();
@@ -34,7 +34,12 @@ bool copyFolder(QString from,QString to)
             else if(!copy_stat)
                 qDebug() << "fail";
         }
-		// else copyFolder(from,to_file) // *** If you want subfolders too, call this function iteratively like this
+	    // To enable iterative nested folder copy, enable this:
+	/*else if(file_info.isDir())
+        {
+            qDebug() << from << "is dir";
+            copyFolder(from,to); // If you want subfolders too, call this function iteratively like this
+        }*/
     }
     return true;
 }
